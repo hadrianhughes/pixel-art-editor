@@ -16,8 +16,10 @@ module.exports = {
     node: true,
   },
   rules: {
-    'no-console': {
-      allow: ['warn', 'error', 'info'],
-    },
+    'no-console': [2, {
+      allow: ['error', 'warn', 'info'],
+    }],
+    'no-trailing-spaces': 2,
+    'eol-last': 2
   },
 };
