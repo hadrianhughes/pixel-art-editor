@@ -4,7 +4,9 @@
   "description": "A web app for creating and editing pixel art",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "webpack-dev-server",
+    "build": "webpack"
   },
   "author": "Hadrian Hughes",
   "license": "GPL-3.0",
@@ -13,6 +15,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "copy-webpack-plugin": "^4.5.4",
     "eslint": "^5.7.0",
     "eslint-plugin-react": "^7.11.1",
     "react": "^16.5.2",
