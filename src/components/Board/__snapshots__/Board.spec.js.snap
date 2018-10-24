@@ -1,3 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Board: component Matches snapshot 1`] = `<canvas />`;
+exports[`Board: component Matches snapshot 1`] = `
+<div
+  className="sc-bdVaJa byFSyN"
+>
+  <canvas
+    className="sc-bwzfXH jQxKoU"
+    style={
+      Object {
+        "backgroundColor": "white",
+      }
+    }
+  />
+</div>
+`;

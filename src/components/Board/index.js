@@ -1,8 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { Wrapper, Canvas } from './styles';
+
 const Board = ({ getRef }) => (
-  <canvas ref={getRef} />
+  <Wrapper>
+    <Canvas ref={getRef} style={{ backgroundColor: 'white' }} />
+  </Wrapper>
 );
 
 Board.propTypes = {
